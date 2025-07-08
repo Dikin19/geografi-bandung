@@ -7,10 +7,8 @@ Repositori ini merupakan proyek sederhana yang dibuat menggunakan **HTML** dan *
 Proyek ini bertujuan untuk memberikan gambaran umum mengenai geografi Bandung, seperti:
 
 - Letak geografis Bandung
-- Kondisi alam dan topografi
-- Iklim dan cuaca
-- Sumber daya alam
-- Peta wilayah Bandung
+- Sejarah
+- Wisata
 
 Semua informasi disajikan dalam tampilan halaman web statis yang responsif dan menarik, tanpa menggunakan JavaScript.
 
@@ -18,4 +16,4 @@ Semua informasi disajikan dalam tampilan halaman web statis yang responsif dan m
 
 - HTML5
 - CSS3
-- (Opsional: Google Fonts dan Flexbox/Grid untuk tata letak)
+- (Opsional: Google Fonts dan Flexbox untuk tata letak)
