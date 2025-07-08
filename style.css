@@ -15,6 +15,10 @@ body {
     margin: 0;
     padding: 0;
   } 
+
+  header {
+    display: inline;
+  }
  
  .jumbotron {
     font-size: 20px;
@@ -22,21 +26,32 @@ body {
     background-color: #00c8eb;
     text-align: center;
     color: white;
-  }
+}
 
 nav {
-    background-color:  #00a2c6;
-    padding: 3px;
-
+    background-color: rgba(0, 162, 198, 0.7); /* biru transparan */
+    padding: 5px;
+    border-radius: 2px;
     position: sticky;
     top: 0;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
 }
 
 nav li {
-    display: inline;
-    list-style-type: none;
-    margin-right: 20px;
+  list-style-type: none;
+  margin-right: 20px;
+  margin-left: 20px;
 }
+
 
 nav a {
     font-size: 18px;
@@ -47,4 +62,33 @@ nav a {
 
 nav a:hover {
     font-weight: bold;
+}
+
+main {
+    padding: 25px;
+    overflow: auto;
+}
+
+#content {
+    float: left;
+    width: 70%;
+}
+
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+h2, h3 {
+    color: #00c8eb;
+}
+
+featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
 }
