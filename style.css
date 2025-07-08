@@ -1,7 +1,50 @@
-  .jumbotron {
+/* | Baris                                                       | Fungsi                                                                                     |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| `* { box-sizing: border-box; }`                             | Agar semua elemen menghitung ukuran lebih rapi dan terkontrol.                             |
+| `body { font-family: 'Quicksand'; margin: 0; padding: 0; }` | Mengatur jenis font dan menghilangkan spasi default pada body agar layout tidak melenceng. |
+ 
+
+*/
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Quicksand';
+    margin: 0;
+    padding: 0;
+  } 
+ 
+ .jumbotron {
     font-size: 20px;
     padding: 60px;
     background-color: #00c8eb;
     text-align: center;
     color: white;
   }
+
+nav {
+    background-color:  #00a2c6;
+    padding: 3px;
+
+    position: sticky;
+    top: 0;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
