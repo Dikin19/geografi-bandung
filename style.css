@@ -20,6 +20,7 @@ body {
 
   header {
     display: inline;
+    /* border: 10px solid black; */
   }
  
  .jumbotron {
@@ -29,6 +30,15 @@ body {
     text-align: center;
     color: white;
 }
+/* Ukuran huruf: besar (20px)
+
+Dikasih ruang dalam 60px (biar nggak sempit)
+
+Latar belakang warna biru cerah
+
+Tulisan di tengah
+
+Warna tulisan: putih */
 
 nav {
     background-color: rgba(0, 162, 198, 0.7); /* biru transparan */
@@ -39,6 +49,13 @@ nav {
     margin-top: 20px;
     border-radius: 20px;
 }
+/* Menu di atas punya warna biru transparan
+
+Lengkung di pinggir (bulat)
+
+Menempel di atas saat digulir (sticky!)
+
+Ada jarak atas 20px */
 
 nav ul {
     display: flex;
@@ -53,6 +70,7 @@ nav li {
   margin-right: 20px;
   margin-left: 20px;
 }
+/* Titik atau angka di depan menu dihilangkan, dan diberi jarak kanan kiri. */
 
 
 nav a {
@@ -61,9 +79,17 @@ nav a {
     text-decoration: none;
     color: white;
 }
+/* Huruf ukuran 18px
+
+Tidak ditebalkan
+
+Tidak ada garis bawah
+
+Warna: putih */
 
 nav a:hover {
-    font-weight: bold;
+    font-weight: bold; 
+    /* huruf jadi tebal ketika di arahkan ke mouse */
 }
 
 /* ! MAIN */
@@ -71,23 +97,29 @@ nav a:hover {
 main {
     padding: 25px;
     overflow: auto;
+    border: 10px solid #00c8eb;
+    margin: 10px;
 }
+/* padding = jarak antara isi elemen dengan batas dalam kotak elemen (border). */
 
 #content {
     float: left;
     width: 70%;
+    border: 10px solid #00c8eb;
+    padding: 10px
 }
 
  .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-
+    /* border: 10px solid #00c8eb; */
     padding: 20px;
     margin-top: 20px;
   }
 
 h2, h3 {
     color: #00c8eb;
+    border: 10px solid #00c8eb;
 }
 
 .featured-image {
@@ -95,6 +127,7 @@ h2, h3 {
     max-height: 300px;
     object-fit: cover;
     object-position: center;
+    border: 10px solid #00c8eb;
 }
 
 /* ! ASIDE */
@@ -103,6 +136,9 @@ aside{
     float: right;
     width: 30%;
     padding-left: 20px;
+    /* border: 10px solid #00c8eb;  */
+    /* margin-left: 2px; */
+    /* padding: 20px; */
 }
 
 .profile header {
@@ -116,7 +152,30 @@ aside{
 .info table tr th {
     display: inline;
     margin-right: 20px;
+    /* border: 5px solid #00c8eb; */
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* th, td {
+  border: 1px solid #00a2c6;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #e0f7fa;
+  color: #006064;
+}
+
+td {
+  background-color: #f1fefe;
+} */
+
 
 footer {
     padding: 20px;
